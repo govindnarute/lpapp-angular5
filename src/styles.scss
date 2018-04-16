@@ -1,0 +1,67 @@
+/* You can add global styles to this file, and also import other style files */
+@import './scss/_var';
+//$banner-image:"./assets/images/banner_img.png";
+
+
+body{
+    margin: 0;
+    height: 100%; 
+    font-family: 'Roboto'!important;
+    font-size: 16px;
+    background: #111315;
+    color: #fff !important;
+}
+
+.mt80{
+margin-top: 62px;
+}
+.mt10{
+    margin-top: 10px;
+}
+.text-black{
+    color:#000000;
+}
+
+.bg-home-main{
+    background-image: url($banner-image);
+    position: relative !important;
+    height: 80% !important;
+    width: 100%;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.jumbotron-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+    margin-bottom: 0 !important;
+}
+.home_s2_bg{
+    background-color: #111315;
+}
+.home_s5_bg{
+    background-color: #EA5E38!important;
+}
+.home_s4_bg{
+    background-color: #111315!important;
+}
+.upper_footer_bg{
+    background-color: #111315!important;
+    color:#fff;
+}
+.upper_footer_bg a,a:visited,a:hover{
+   
+    color:#fff;
+}
+
+
+
+
+
+@media (min-width: 576px)
+{
+.jumbotron {
+    padding: 2rem 1rem !important; 
+}
+}
